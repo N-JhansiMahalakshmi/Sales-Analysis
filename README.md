@@ -10,14 +10,15 @@ Table of Contents
 - Regional Prioritization
 - Key Deliverables
 
-**Project Goals**
+## **Project Goals**
+
 The primary objectives of this project were to:
 
 - **Audit Profitability**: Determine the most (and least) profitable product categories and geographical regions using Average Profit per Order and Profit Margin.\
 - **Identify Operational Leaks**: Pinpoint areas of significant profit loss (e.g., loss-making states like Punjab).
 - **Evaluate Target Setting**: Assess the efficiency of the month-over-month (MoM) sales target planning process.
 
-📈 **Sales Analysis Overview**
+## 📈 **Sales Analysis Overview**
 #### Category Performance Analysis
 
 The analysis focuses on **unit economics** to explain performance differences:
@@ -34,6 +35,6 @@ Geographical performance was evaluated based on the alignment of sales volume an
 - **Improve Efficiency**: **Madhya Pradesh** (high volume, moderate efficiency) requires a margin restoration audit (discounting, shipping costs).
 - **Scale Success**: Maharashtra (highest Avg. Profit per Order at ₹68.62) is the most efficient market and should receive focused investment.
 
-📦 **Key Deliverables**
+## 📦 **Key Deliverables**
 - Data Analysis Scripts: Python code snippets for calculating key performance indicators (KPIs) like Total Sales, Profit Margin, and MoM Target Change.
 - Performance Summary: Tables summarizing Category Performance and Regional Disparities.

@@ -33,3 +33,7 @@ Geographical performance was evaluated based on the alignment of sales volume an
 - **Stop the Bleeding**: Immediate action is needed in Punjab (negative profit/loss leader).
 - **Improve Efficiency**: **Madhya Pradesh** (high volume, moderate efficiency) requires a margin restoration audit (discounting, shipping costs).
 - **Scale Success**: Maharashtra (highest Avg. Profit per Order at ₹68.62) is the most efficient market and should receive focused investment.
+
+📦 **Key Deliverables**
+- Data Analysis Scripts: Python code snippets for calculating key performance indicators (KPIs) like Total Sales, Profit Margin, and MoM Target Change.
+- Performance Summary: Tables summarizing Category Performance and Regional Disparities.

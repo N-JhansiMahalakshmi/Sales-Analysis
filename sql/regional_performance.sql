@@ -48,7 +48,7 @@ SELECT
         WHEN AVG(od.Profit) >= 20  THEN 'Moderate Profit'
         ELSE 'Low Profit / Loss'
     END AS profit_status
-FROM list_of_orders lo
+FROM list_of_orders_1 lo
 JOIN order_details_1 od 
     ON lo.OrderID = od.OrderID
 GROUP BY lo.State

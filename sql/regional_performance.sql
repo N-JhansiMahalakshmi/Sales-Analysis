@@ -28,7 +28,7 @@ SELECT
     SUM(od.Amount) AS total_sales,
     ROUND(AVG(od.Profit), 2) AS avg_profit
 FROM list_of_order_1 lo
-JOIN order_details od 
+JOIN order_details_1 od 
     ON lo.OrderID= od.OrderID
 GROUP BY lo.State
 ORDER BY order_count DESC
@@ -49,7 +49,7 @@ SELECT
         ELSE 'Low Profit / Loss'
     END AS profit_status
 FROM list_of_orders lo
-JOIN order_details od 
+JOIN order_details_1 od 
     ON lo.OrderID = od.OrderID
 GROUP BY lo.State
 ORDER BY order_count DESC

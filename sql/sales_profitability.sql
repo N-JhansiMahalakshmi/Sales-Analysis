@@ -11,7 +11,7 @@
 SELECT 
     od.Category,
     SUM(od.Amount) AS total_sales
-FROM list_of_orders_1 lo
+FROM list_of_order_1 lo
 JOIN order_details_1 od ON lo.OrderID = od.OrderID
 GROUP BY od.Category
 ORDER BY total_sales DESC;
@@ -24,7 +24,7 @@ SELECT
     od.Category,
     AVG(od.Profit) AS avg_profit_per_order,
     ROUND(SUM(od.Profit) / SUM(od.Amount) * 100, 2) AS profit_margin_pct
-FROM list_of_orders_1 lo
+FROM list_of_order_1 lo
 JOIN order_details_1 od ON lo.OrderID = od.OrderID
 GROUP BY od.Category
 ORDER BY profit_margin_pct DESC;
